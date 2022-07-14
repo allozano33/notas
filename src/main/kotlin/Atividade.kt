@@ -1,6 +1,6 @@
 class Atividade(
-   var atividade: Atividade,
-   var avaliacao: Avaliacao
+    var atividade: Atividade?,
+    var avaliacao: Avaliacao
 ) {
     fun soma(atividade: Int, avaliacao: Int): Int {
         return atividade + avaliacao;
